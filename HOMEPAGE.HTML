@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        nav {
+            width: 250px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #444;
+            border-bottom: 1px solid #000;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            flex: 1;
+            max-width: 1000px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        .content-section {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .content-section h3 {
+            color: #000;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .content-section p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .center {
+            text-align: center;
+        }
+        .caption {
+            font-size: 0.9rem;
+            color: #333;
+            margin-top: 8px;
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            background-color: #000;
+            color: #fff;
+            margin-top: 20px;
+        }
+        footer a {
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            nav {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            main {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Home</h1>
+</header>
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="Unit1.html">Unit 1</a></li>
+            <li><a href="Unit2.html">Unit 2</a></li>
+            <li><a href="Unit9.html">Unit 9</a></li>
+            <li><a href="Unit14.html">Unit 14</a></li>
+            <li><a href="Unit17.html">Unit 17</a></li>
+            <li><a href="PersonalInfo.html">Personal Info</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome to my Website</h2>
+        <hr>
+        
+        <div class="content-section">
+            <h3>About Me</h3>
+            <p>My name is <strong>David</strong>. I'm 16 years old from England with Vietnamese heritage.</p>
+        </div>
+        
+        <div class="content-section">
+            <h3>What am I Studying</h3>
+            <p>I'm currently attending <strong>New City College at Epping Forest</strong>, where I'm pursuing my academic and professional development in the field of IT.</p>
+            <p>I'm studying <strong>IT Level 2</strong>, which provides me with a foundation in various aspects of information technology, including computer systems, networking, software development, and digital communication.</p>
+        </div>
+        
+        <div class="content-section">
+            <h3>My Passion for IT</h3>
+            <p>I have a genuine passion for <strong>IT</strong> and enjoy exploring how technology systems work and interact with each other. This enthusiasm drives my learning and motivates me to continuously improve my skills.</p>
+            <p>This website serves as a showcase <strong>my learning journey throughout my IT Level 2 course</strong>. Here you can explore the various units I've studied and see what I have learnt during my course.</p>
+        </div>
+        
+        <section class="center">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPDTJuqzXV51EbEU_49ovls4cWWV-r0O6HhUVei=s680-w680-h510-rw" alt="New City College Epping campus">
+            <div class="caption">New City College Epping Forest campus - where I'm currently studying IT Level 2</div>
+        </section>
+    </main>
+</div>
+<footer>
+    <p>&copy; <a href="mailto:19220176@students.ncclondon.ac.uk">19220176@students.ncclondon.ac.uk</a></p>
+</footer>
+</body>
+</html>
+
+
